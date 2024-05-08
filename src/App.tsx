@@ -1,7 +1,12 @@
 import "./App.css";
+import ProjectComponent from "./Components/ProjectComponent/project.component";
 
 function App() {
-  return <div className="container"> {/* .container is an SDX class */}</div>;
+  return (
+    <>
+      <ProjectComponent />
+    </>
+  );
 }
 
 export default App;
