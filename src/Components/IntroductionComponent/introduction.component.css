@@ -1,0 +1,20 @@
+.introduction-container {
+  height: 200px;
+  background-image: url("../../Images/Gradient_introduction.jpg");
+  background-size: cover;
+}
+
+.cardContaienr {
+  margin: 3%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: #001155;
+  border-radius: 25px;
+}
+
+.mag-5 {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
