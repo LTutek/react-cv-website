@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { technologies } from "./technology-data";
+import "./technology.component.css";
 
 function TechnologyComponent() {
   const [selectedCategory, setSelectedCategory] = useState<string>("frontend");
@@ -28,9 +29,14 @@ function TechnologyComponent() {
     <>
       <sdx-input-group
         type="radio"
-        label="Radio group (inline)"
         inline
         onInput={handleCategoryChange}
+        style={{
+          marginBottom: "20px",
+          display: "flex",
+          justifyContent: "center",
+          marginTop: "20px",
+        }}
       >
         <sdx-input-item
           value="frontend"
@@ -50,14 +56,16 @@ function TechnologyComponent() {
       </sdx-input-group>
       <div className="technology-container">
         {filteredTechnologies.map((technology, index) => (
-          <div key={index} className="technology-card">
+          <div key={index} className="technologyCards">
             <img
               src={technology.logo}
               alt={technology.name}
-              className="technology-logo"
+              className="technologyImage"
             />
-            <h3>{technology.name}</h3>
-            <p>{technology.description}</p>
+            <div className="technologyContent">
+              <h3>{technology.name}</h3>
+              <p>{technology.description}</p>
+            </div>
           </div>
         ))}
       </div>
