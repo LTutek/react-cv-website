@@ -12,3 +12,8 @@
   color: #666;
   margin-bottom: 10px;
 }
+
+.projectTitle {
+  display: flex;
+  justify-content: center;
+}

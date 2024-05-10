@@ -9,9 +9,11 @@ function ProjectComponent() {
   return (
     <>
       <div className="carousel-container">
+        <h1 className="projectTitle">Projects</h1>
         <sdx-content-slider lg={2} xl={2} ul={2} sr-hint="My projects">
           <div
             className="image--frame-light"
+            style={{ borderRadius: "25px" }}
             role="group"
             aria-label="Slide 2 of 3"
           >
@@ -34,6 +36,7 @@ function ProjectComponent() {
 
           <div
             className="image--frame-light"
+            style={{ borderRadius: "25px" }}
             role="group"
             aria-label="Slide 3 of 3"
           >
@@ -56,6 +59,7 @@ function ProjectComponent() {
 
           <div
             className="image--frame-light"
+            style={{ borderRadius: "25px" }}
             role="group"
             aria-label="Slide 3 of 3"
           >
@@ -78,6 +82,7 @@ function ProjectComponent() {
 
           <div
             className="image--frame-light"
+            style={{ borderRadius: "25px" }}
             role="group"
             aria-label="Slide 3 of 3"
           >
