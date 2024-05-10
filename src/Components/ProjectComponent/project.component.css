@@ -1,0 +1,19 @@
+.carousel-container {
+  margin-top: 20px;
+}
+
+.img-container,
+.image1 {
+  height: 100px;
+}
+
+.description-container p {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.projectTitle {
+  display: flex;
+  justify-content: center;
+}
