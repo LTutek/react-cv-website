@@ -3,3 +3,62 @@
   justify-content: center;
   margin-top: 20px;
 }
+
+.fitness-content,
+.travel-content {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.conent-text {
+  width: 50%;
+}
+
+.image {
+  object-fit: cover;
+  padding: 0;
+}
+
+.Munich {
+  background-image: url("../../Images/Hobbies/MunichHouse.jpeg");
+  background-position: center;
+  background-size: cover;
+  border-radius: 15px;
+}
+
+.London {
+  background-image: url("../../Images/Hobbies/StPaulsLondon.jpeg");
+  background-position: center;
+  background-size: cover;
+  border-radius: 15px;
+}
+
+.CityLondon {
+  background-image: url("../../Images/Hobbies/CityOfLondon.jpeg");
+  background-position: center;
+  background-size: cover;
+  border-radius: 15px;
+}
+
+.icon-container {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  color: white;
+  margin-top: -10px;
+  margin-left: -10px;
+}
+
+@media (max-width: 768px) {
+  .fitness-content,
+  .travel-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .conent-text {
+    width: 100%;
+    text-align: center;
+  }
+}

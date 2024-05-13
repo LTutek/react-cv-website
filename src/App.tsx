@@ -7,8 +7,17 @@ function App() {
   return (
     <>
       <HeaderComponent />
-      <ProjectComponent />
-      <HobbieComponent />
+      <div className="project-contaienr" style={{ margin: "10px" }}>
+        <ProjectComponent />
+      </div>
+      <div
+        className="hobbie-container"
+        style={{
+          margin: "10px",
+        }}
+      >
+        <HobbieComponent />
+      </div>
     </>
   );
 }
