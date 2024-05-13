@@ -6,16 +6,12 @@ import HobbieComponent from "./Components/HobbieComponent/hobbie.component";
 function App() {
   return (
     <>
+      <div className="container">Content</div>
       <HeaderComponent />
-      <div className="project-contaienr" style={{ margin: "10px" }}>
+      <div className="project-container margin-3">
         <ProjectComponent />
       </div>
-      <div
-        className="hobbie-container"
-        style={{
-          margin: "10px",
-        }}
-      >
+      <div className="hobbie-container margin-3">
         <HobbieComponent />
       </div>
     </>

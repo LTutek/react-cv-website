@@ -5,97 +5,109 @@ function HobbieComponent() {
       <h1 className="hobbieTitle">Hobbies</h1>
       <sdx-tabs style={{ marginTop: "20px" }}>
         <sdx-tabs-item label="Fitness" icon-name="icon-fitness">
-          <div className="fitness-content">
-            <p className="conent-text">
+          <div className="fitness row">
+            <div className="col-xl-12 col-md-6">
               Das Fitnessstudio ist für mich ein Ort, an dem ich nach der Arbeit
               oder der Schule abschalten kann. Ich betrachte es als eine
               äusserst wichtige Freizeitaktivität.
-            </p>
-            <sdx-content-slider lg={1} xl={1} ul={1} sr-hint="My three slides">
-              <div
-                className="image--frame-light"
-                style={{ height: "200px" }}
-                role="group"
-                aria-label="Slide 1 of 3"
-              ></div>
-
-              <div
-                className="image--frame-light"
-                style={{ height: "200px" }}
-                role="group"
-                aria-label="Slide 1 of 3"
+            </div>
+            <div className="col-xl-12 col-md-6">
+              <sdx-content-slider
+                lg={1}
+                xl={1}
+                ul={1}
+                sr-hint="My three slides"
               >
-                Slide Content 2
-              </div>
+                <div
+                  className="image--frame-light"
+                  style={{ height: "200px" }}
+                  role="group"
+                  aria-label="Slide 1 of 3"
+                ></div>
 
-              <div
-                className="image--frame-light"
-                style={{ height: "200px" }}
-                role="group"
-                aria-label="Slide 1 of 3"
-              >
-                Slide Content 3
-              </div>
-            </sdx-content-slider>
+                <div
+                  className="image--frame-light"
+                  style={{ height: "200px" }}
+                  role="group"
+                  aria-label="Slide 1 of 3"
+                >
+                  Slide Content 2
+                </div>
+
+                <div
+                  className="image--frame-light"
+                  style={{ height: "200px" }}
+                  role="group"
+                  aria-label="Slide 1 of 3"
+                >
+                  Slide Content 3
+                </div>
+              </sdx-content-slider>
+            </div>
           </div>
         </sdx-tabs-item>
 
         <sdx-tabs-item label="Travel" icon-name="icon-suitcase">
-          <div className="travel-content">
-            <p className="conent-text">
+          <div className="travel row">
+            <div className="col-xl-12 col-md-6">
               Reisen ist meine Leidenschaft, und ich strebe danach, so viele
               Orte wie möglich zu besuchen und zu erkunden.
-            </p>
-            <sdx-content-slider lg={1} xl={1} ul={1} sr-hint="My three slides">
-              <div
-                className="image--frame-light Munich"
-                style={{ height: "200px" }}
-                role="group"
-                aria-label="Slide 1 of 3"
+            </div>
+            <div className="col-xl-12 col-md-6">
+              <sdx-content-slider
+                lg={1}
+                xl={1}
+                ul={1}
+                sr-hint="My three slides"
               >
-                <div className="icon-container">
-                  <sdx-icon
-                    icon-name="icon-map-pointer"
-                    size={3}
-                    sr-hint="Displays the location"
-                  ></sdx-icon>
-                  München
+                <div
+                  className="image--frame-light Munich"
+                  style={{ height: "200px" }}
+                  role="group"
+                  aria-label="Slide 1 of 3"
+                >
+                  <div className="icon-container">
+                    <sdx-icon
+                      icon-name="icon-map-pointer"
+                      size={2}
+                      sr-hint="Displays the location"
+                    ></sdx-icon>
+                    München
+                  </div>
                 </div>
-              </div>
-              <div
-                className="image--frame-light London"
-                style={{ height: "200px", width: "200px" }}
-                role="group"
-                aria-label="Slide 1 of 3"
-              >
-                {" "}
-                <div className="icon-container">
-                  <sdx-icon
-                    icon-name="icon-map-pointer"
-                    size={3}
-                    sr-hint="Displays the location"
-                  ></sdx-icon>
-                  St.Pauls Cathedral London
+                <div
+                  className="image--frame-light London"
+                  style={{ height: "200px", width: "200px" }}
+                  role="group"
+                  aria-label="Slide 1 of 3"
+                >
+                  <div className="icon-container">
+                    <sdx-icon
+                      icon-name="icon-map-pointer"
+                      size={2}
+                      sr-hint="Displays the location"
+                    ></sdx-icon>
+                    St.Pauls Cathedral London
+                  </div>
                 </div>
-              </div>
 
-              <div
-                className="image--frame-light CityLondon"
-                style={{ height: "200px" }}
-                role="group"
-                aria-label="Slide 1 of 3"
-              >
-                {" "}
-                <div className="icon-container">
-                  <sdx-icon
-                    icon-name="icon-map-pointer"
-                    size={3}
-                    sr-hint="Displays the location"
-                  ></sdx-icon>
-                  City of London
+                <div
+                  className="image--frame-light CityLondon"
+                  style={{ height: "200px" }}
+                  role="group"
+                  aria-label="Slide 1 of 3"
+                >
+                  <div className="icon-container">
+                    <sdx-icon
+                      icon-name="icon-map-pointer"
+                      size={2}
+                      sr-hint="Displays the location"
+                    ></sdx-icon>
+                    City of London
+                  </div>
                 </div>
-              </div>
-            </sdx-content-slider>
+              </sdx-content-slider>
+            </div>
           </div>
         </sdx-tabs-item>
         <sdx-tabs-item label="Friends" icon-name="icon-crowd">

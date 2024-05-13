@@ -14,11 +14,6 @@
   width: 50%;
 }
 
-.image {
-  object-fit: cover;
-  padding: 0;
-}
-
 .Munich {
   background-image: url("../../Images/Hobbies/MunichHouse.jpeg");
   background-position: center;
@@ -43,10 +38,11 @@
 .icon-container {
   display: flex;
   align-items: center;
-  margin-top: 20px;
   color: white;
-  margin-top: -10px;
+  /*   margin-top: -10px;
   margin-left: -10px;
+  margin-right: 0;
+  width: 90%px; */
 }
 
 @media (max-width: 768px) {
