@@ -2,8 +2,12 @@ import "./hobbie.component.css";
 function HobbieComponent() {
   return (
     <>
-      <h1 className="hobbieTitle">Hobbies</h1>
-      <sdx-tabs style={{ marginTop: "20px" }}>
+      <div className="title row col-md-6 offset-md-3">
+        <div className="col-xl-12 col-md-6 col-lg-12 col-md-6 col-md-12 col-md-6">
+          <h1 className="hobbieTitle">Hobbies</h1>
+        </div>
+      </div>
+      <sdx-tabs theme="centered" style={{ marginTop: "20px" }}>
         <sdx-tabs-item label="Fitness" icon-name="icon-fitness">
           <div className="fitness row">
             <div className="col-xl-12 col-md-6">
@@ -49,7 +53,7 @@ function HobbieComponent() {
 
         <sdx-tabs-item label="Travel" icon-name="icon-suitcase">
           <div className="travel row">
-            <div className="col-xl-12 col-md-6">
+            <div className="col-xl-12 col-md-6 description">
               Reisen ist meine Leidenschaft, und ich strebe danach, so viele
               Orte wie möglich zu besuchen und zu erkunden.
             </div>
@@ -64,7 +68,7 @@ function HobbieComponent() {
                   className="image--frame-light Munich"
                   style={{ height: "200px" }}
                   role="group"
-                  aria-label="Slide 1 of 3"
+                  aria-label="Slide 1 of 6"
                 >
                   <div className="icon-container">
                     <sdx-icon
@@ -79,7 +83,7 @@ function HobbieComponent() {
                   className="image--frame-light London"
                   style={{ height: "200px", width: "200px" }}
                   role="group"
-                  aria-label="Slide 1 of 3"
+                  aria-label="Slide 2 of 6"
                 >
                   <div className="icon-container">
                     <sdx-icon
@@ -87,7 +91,7 @@ function HobbieComponent() {
                       size={2}
                       sr-hint="Displays the location"
                     ></sdx-icon>
-                    St.Pauls Cathedral London
+                    St.Pauls Cathedral, London
                   </div>
                 </div>
 
@@ -95,7 +99,7 @@ function HobbieComponent() {
                   className="image--frame-light CityLondon"
                   style={{ height: "200px" }}
                   role="group"
-                  aria-label="Slide 1 of 3"
+                  aria-label="Slide 3 of 6"
                 >
                   <div className="icon-container">
                     <sdx-icon
@@ -104,6 +108,51 @@ function HobbieComponent() {
                       sr-hint="Displays the location"
                     ></sdx-icon>
                     City of London
+                  </div>
+                </div>
+                <div
+                  className="image--frame-light SvMarko"
+                  style={{ height: "200px" }}
+                  role="group"
+                  aria-label="Slide 4 of 6"
+                >
+                  <div className="icon-container">
+                    <sdx-icon
+                      icon-name="icon-map-pointer"
+                      size={2}
+                      sr-hint="Displays the location"
+                    ></sdx-icon>
+                    Sv.Marko, Zagreb
+                  </div>
+                </div>
+                <div
+                  className="image--frame-light Zadar"
+                  style={{ height: "200px" }}
+                  role="group"
+                  aria-label="Slide 5 of 6"
+                >
+                  <div className="icon-container">
+                    <sdx-icon
+                      icon-name="icon-map-pointer"
+                      size={2}
+                      sr-hint="Displays the location"
+                    ></sdx-icon>
+                    Zadar
+                  </div>
+                </div>
+                <div
+                  className="image--frame-light Rovinj"
+                  style={{ height: "200px" }}
+                  role="group"
+                  aria-label="Slide 6 of 6"
+                >
+                  <div className="icon-container">
+                    <sdx-icon
+                      icon-name="icon-map-pointer"
+                      size={2}
+                      sr-hint="Displays the location"
+                    ></sdx-icon>
+                    Rovinj
                   </div>
                 </div>
               </sdx-content-slider>

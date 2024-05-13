@@ -6,7 +6,6 @@ import HobbieComponent from "./Components/HobbieComponent/hobbie.component";
 function App() {
   return (
     <>
-      <div className="container">Content</div>
       <HeaderComponent />
       <div className="project-container margin-3">
         <ProjectComponent />

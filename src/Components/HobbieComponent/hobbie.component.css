@@ -1,17 +1,5 @@
 .hobbieTitle {
-  display: flex;
-  justify-content: center;
-  margin-top: 20px;
-}
-
-.fitness-content,
-.travel-content {
-  display: flex;
-  justify-content: space-evenly;
-}
-
-.conent-text {
-  width: 50%;
+  text-align: center;
 }
 
 .Munich {
@@ -35,26 +23,37 @@
   border-radius: 15px;
 }
 
+.SvMarko {
+  background-image: url("../../Images/Hobbies/SvMarkoZagreb.jpeg");
+  background-position: center;
+  background-size: cover;
+  border-radius: 15px;
+}
+
+.Zadar {
+  background-image: url("../../Images/Hobbies/ZadarSunset.jpeg");
+  background-position: center;
+  background-size: cover;
+  border-radius: 15px;
+}
+
+.Rovinj {
+  background-image: url("../../Images/Hobbies/Rovinj.jpeg");
+  background-position: center;
+  background-size: cover;
+  border-radius: 15px;
+}
+
 .icon-container {
   display: flex;
   align-items: center;
   color: white;
-  /*   margin-top: -10px;
+  margin-top: -10px;
   margin-left: -10px;
   margin-right: 0;
-  width: 90%px; */
+  width: 90%px;
 }
 
-@media (max-width: 768px) {
-  .fitness-content,
-  .travel-content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .conent-text {
-    width: 100%;
-    text-align: center;
-  }
+.description {
+  text-align: center;
 }
