@@ -2,6 +2,8 @@
   text-align: center;
 }
 
+/*Travel*/
+
 .Munich {
   background-image: url("../../Images/Hobbies/MunichHouse.jpeg");
   background-position: center;
@@ -44,6 +46,15 @@
   border-radius: 15px;
 }
 
+/*Gaming*/
+
+.Mc1 {
+  background-image: url("../../Images/Hobbies/Mc1.jpeg");
+  background-position: center;
+  background-size: cover;
+  border-radius: 15px;
+}
+
 .icon-container {
   display: flex;
   align-items: center;
@@ -54,6 +65,8 @@
   width: 90%px;
 }
 
-.description {
-  text-align: center;
+@media (max-width: 768px) {
+  .description {
+    text-align: center;
+  }
 }
