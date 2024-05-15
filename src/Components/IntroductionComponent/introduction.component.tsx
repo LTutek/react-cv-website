@@ -25,29 +25,29 @@ function IntroductionComponent() {
     <>
       <div className="container-fluid no-gutters">
         <div className="row introduction">
-          <div className="col-xs flex-xs-middle col-md-6 offset-md-4">
+          <div className="col-xs flex-xs-middle col-md-6 offset-md-3">
             <Typewriter text="Hello my name is Luka Tutek" delay={100} />
           </div>
         </div>
 
         <div className="row card">
-          <div className="col-xs">
+          <div className="col-xs-12 col-md-6 flex-xs-middle col-md-6 offset-md-3">
             <sdx-card
-              label="Title"
-              /* label-aria-level="3"
-              image-src={selfie} */
+              label="About me :)"
+              label-aria-level="3"
+              image-src={selfie}
               image-alt="austronaut image"
               href-label="Link"
               href-aria-label="Open new website."
             >
               <p>
-                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
-                diam nonummy nibh euismod
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Asperiores, debitis exercitationem, architecto voluptatibus
+                similique delectus et sapiente iusto iste, consequatur
+                temporibus pariatur voluptates minima ut nam provident obcaecati
+                placeat cumque!
               </p>
             </sdx-card>
-          </div>
-          <div className="col-xs col-lg-4 margin-top-2">
-            <img className="profile" src={astronaut_background} alt="" />
           </div>
         </div>
       </div>
