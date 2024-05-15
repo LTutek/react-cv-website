@@ -1,5 +1,6 @@
 import "./introduction.component.css";
 import astronaut_background from "../../Images/astronaut_background.jpg";
+import selfie from "../../Images/selfie.jpeg";
 import React, { useState, useEffect } from "react";
 
 function IntroductionComponent() {
@@ -30,11 +31,11 @@ function IntroductionComponent() {
         </div>
 
         <div className="row card">
-          <div className="col-lg-6 col-xl-5 mag-5 col-md-6 offset-md-3">
+          <div className="col-xs">
             <sdx-card
               label="Title"
-              label-aria-level="3"
-              image-src={astronaut_background}
+              /* label-aria-level="3"
+              image-src={selfie} */
               image-alt="austronaut image"
               href-label="Link"
               href-aria-label="Open new website."
@@ -44,6 +45,9 @@ function IntroductionComponent() {
                 diam nonummy nibh euismod
               </p>
             </sdx-card>
+          </div>
+          <div className="col-xs col-lg-4 margin-top-2">
+            <img className="profile" src={astronaut_background} alt="" />
           </div>
         </div>
       </div>
