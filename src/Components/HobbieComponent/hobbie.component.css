@@ -1,0 +1,72 @@
+.hobbieTitle {
+  text-align: center;
+}
+
+/*Travel*/
+
+.Munich {
+  background-image: url("../../Images/Hobbies/MunichHouse.jpeg");
+  background-position: center;
+  background-size: cover;
+  border-radius: 15px;
+}
+
+.London {
+  background-image: url("../../Images/Hobbies/StPaulsLondon.jpeg");
+  background-position: center;
+  background-size: cover;
+  border-radius: 15px;
+}
+
+.CityLondon {
+  background-image: url("../../Images/Hobbies/CityOfLondon.jpeg");
+  background-position: center;
+  background-size: cover;
+  border-radius: 15px;
+}
+
+.SvMarko {
+  background-image: url("../../Images/Hobbies/SvMarkoZagreb.jpeg");
+  background-position: center;
+  background-size: cover;
+  border-radius: 15px;
+}
+
+.Zadar {
+  background-image: url("../../Images/Hobbies/ZadarSunset.jpeg");
+  background-position: center;
+  background-size: cover;
+  border-radius: 15px;
+}
+
+.Rovinj {
+  background-image: url("../../Images/Hobbies/Rovinj.jpeg");
+  background-position: center;
+  background-size: cover;
+  border-radius: 15px;
+}
+
+/*Gaming*/
+
+.Mc1 {
+  background-image: url("../../Images/Hobbies/Mc1.jpeg");
+  background-position: center;
+  background-size: cover;
+  border-radius: 15px;
+}
+
+.icon-container {
+  display: flex;
+  align-items: center;
+  color: white;
+  margin-top: -10px;
+  margin-left: -10px;
+  margin-right: 0;
+  width: 90%px;
+}
+
+@media (max-width: 768px) {
+  .description {
+    text-align: center;
+  }
+}
