@@ -19,7 +19,7 @@
   transform: scale(1.05);
 }
 
-.technologyImage img {
+.technologyCard img {
   width: 100px;
   height: 100px;
   object-fit: fill;
@@ -39,7 +39,7 @@ p {
   color: #666;
 }
 
-.technology-container {
+.cards {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
