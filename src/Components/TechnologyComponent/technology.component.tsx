@@ -57,7 +57,7 @@ function TechnologyComponent() {
         </sdx-input-group>
         <div className="row flex-items-xs-center flex-items-xs-center">
           {filteredTechnologies.map((technology, index) => (
-            <div className="col-xs-12 col-md-3 cards margin-2">
+            <div className="col-xs-12 col-md-3 margin-2">
               <sdx-card
                 object-fit="contain"
                 label={technology.name}
