@@ -1,4 +1,4 @@
-.carousel-container {
+.carousel {
   margin-top: 20px;
 }
 
@@ -14,6 +14,5 @@
 }
 
 .projectTitle {
-  display: flex;
-  justify-content: center;
+  text-align: center;
 }
