@@ -20,6 +20,7 @@ export const technologies = [
     description:
       "Angular ist eine Plattform und ein Framework zum Erstellen von einseitigen Client-Anwendungen mit HTML und TypeScript.",
     category: "frontend",
+    link: "https://angular.io/",
   },
   {
     name: "Vue",
@@ -27,6 +28,7 @@ export const technologies = [
     description:
       "Vue.js ist ein progressives Framework zur Erstellung von Benutzeroberflächen.",
     category: "frontend",
+    link: "https://vuejs.org",
   },
   {
     name: "NestJS",
@@ -34,6 +36,7 @@ export const technologies = [
     description:
       "NestJS ist ein Framework für die Entwicklung effizienter, zuverlässiger und skalierbarer serverseitiger Anwendungen.",
     category: "backend",
+    link: "https://nestjs.com",
   },
   {
     name: "MariaDB",
@@ -41,6 +44,7 @@ export const technologies = [
     description:
       "MariaDB ist ein open-source relationales Datenbankmanagementsystem, abwärtskompatibel und ein binärer Ersatz für MySQL.",
     category: "backend",
+    link: "https://mariadb.com",
   },
   {
     name: "MongoDB",
@@ -48,6 +52,7 @@ export const technologies = [
     description:
       "MongoDB ist eine dokumentenorientierte NoSQL-Datenbank, die für die Speicherung grosser Datenmengen verwendet wird.",
     category: "backend",
+    link: "https://www.mongodb.com",
   },
   {
     name: "Python",
@@ -55,6 +60,7 @@ export const technologies = [
     description:
       "Python ist eine interpretierte, objektorientierte, hoch-niveau Programmiersprache mit dynamischer Semantik.",
     category: "backend",
+    link: "https://www.python.org",
   },
   {
     name: "HTML",
@@ -62,6 +68,7 @@ export const technologies = [
     description:
       "HTML (HyperText Markup Language) is the standard markup language for documents designed to be displayed in a web browser.",
     category: "frontend",
+    link: "https://de.wikipedia.org/wiki/Hypertext_Markup_Language",
   },
   {
     name: "CSS/SCSS",
@@ -69,6 +76,7 @@ export const technologies = [
     description:
       "CSS (Cascading Style Sheets) ist eine Stylesheet-Sprache, mit der die Darstellung eines in HTML geschriebenen Dokuments beschrieben werden kann.",
     category: "frontend",
+    link: "https://de.wikipedia.org/wiki/Cascading_Style_Sheets",
   },
   {
     name: "JavaScript",
@@ -76,6 +84,7 @@ export const technologies = [
     description:
       "JavaScript ist eine Programmiersprache, die es Ihnen ermöglicht, dynamisch aktualisierte Inhalte zu erstellen, Multimedia zu steuern, Bilder zu animieren und so ziemlich alles andere.",
     category: "frontend",
+    link: "https://de.wikipedia.org/wiki/JavaScript#:~:text=JavaScript%20(kurz%20JS)%20ist%20eine,Möglichkeiten%20von%20HTML%20zu%20erweitern.",
   },
   {
     name: "TypeScript",
@@ -83,6 +92,7 @@ export const technologies = [
     description:
       "TypeScript ist eine typisierte Obermenge von JavaScript, die sich zu einfachem JavaScript kompilieren lässt.",
     category: "backend",
+    link: "https://www.typescriptlang.org",
   },
   {
     name: "TypeScript",
@@ -90,6 +100,7 @@ export const technologies = [
     description:
       "TypeScript ist eine typisierte Obermenge von JavaScript, die sich zu einfachem JavaScript kompilieren lässt.",
     category: "frontend",
+    link: "https://www.typescriptlang.org",
   },
   {
     name: "GitHub",
@@ -97,6 +108,7 @@ export const technologies = [
     description:
       "GitHub ist eine Plattform für das Hosting und die Zusammenarbeit an Git-Repositories.",
     category: "tools",
+    link: "https://github.com",
   },
   {
     name: "GitLab",
@@ -104,6 +116,7 @@ export const technologies = [
     description:
       "GitLab ist ein webbasiertes DevOps-Lifecycle-Tool, das einen Git-Repository-Manager mit Wiki, Issue-Tracking und CI/CD-Pipeline-Funktionen unter einer Open-Source-Lizenz bietet.",
     category: "tools",
+    link: "https://about.gitlab.com",
   },
   {
     name: "Docker",
@@ -111,6 +124,7 @@ export const technologies = [
     description:
       "Docker ist eine Reihe von Platform-as-a-Service (PaaS)-Produkten, die Virtualisierung auf Betriebssystemebene nutzen, um Software in Paketen, sogenannten Containern, bereitzustellen.",
     category: "tools",
+    link: "https://www.docker.com",
   },
   {
     name: "Rancher Desktop",
@@ -118,6 +132,7 @@ export const technologies = [
     description:
       "Rancher Desktop ist ein Open-Source-Tool zum Erstellen, Bereitstellen und Verwalten von Containern direkt auf Ihrem Desktop.",
     category: "tools",
+    link: "https://rancherdesktop.io",
   },
   {
     name: "Jira",
@@ -125,5 +140,6 @@ export const technologies = [
     description:
       "Jira ist ein von Atlassian entwickeltes, proprietäres Produkt zur Fehlerverfolgung, das Bugtracking und agiles Projektmanagement ermöglicht.",
     category: "tools",
+    link: "https://jira.swisscom.com/secure/Dashboard.jspa",
   },
 ];

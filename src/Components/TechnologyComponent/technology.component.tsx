@@ -64,8 +64,8 @@ function TechnologyComponent() {
                 label-aria-level="3"
                 image-src={technology.logo}
                 image-alt={technology.name}
-                href="javascript:;"
-                href-label="Link"
+                href={technology.link}
+                href-label={technology.name} // The Link names
                 href-aria-label="Open new website."
               >
                 <p>{technology.description}</p>
