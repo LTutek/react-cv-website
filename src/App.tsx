@@ -1,24 +1,22 @@
 import "./App.css";
 import ProjectComponent from "./Components/ProjectComponent/project.component";
 import HeaderComponent from "./Components/HeaderComponent/header.component";
-import TechnologyComponent from "./Components/TechnologyComponent/technology.component";
 import IntroductionComponent from "./Components/IntroductionComponent/introduction.component";
 import HobbieComponent from "./Components/HobbieComponent/hobbie.component";
-import LanguageComponent from "./Components/LanguageComponent/language.component";
+import SkillComponent from "./Components/Skills/skills.component";
 
 function App() {
   return (
     <>
       <HeaderComponent />
       <IntroductionComponent />
-      <div className="project-container margin-3">
+      <div className="project container-fluid margin-top-4">
         <ProjectComponent />
       </div>
-      <div className="hobbie-container margin-3">
+      <div className="hobbie container-fluid margin-top-4">
         <HobbieComponent />
       </div>
-      <LanguageComponent />
-      <TechnologyComponent />
+      <SkillComponent />
     </>
   );
 }

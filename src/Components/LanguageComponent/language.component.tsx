@@ -2,11 +2,6 @@ function LanguageComponent() {
   return (
     <>
       <div className="language container">
-        <div className="title row col-md-6 offset-md-3">
-          <div className="col-xl-12 col-md-6 col-lg-12 col-md-6 col-md-12 col-md-6">
-            <h1 className="hobbieTitle">Languages</h1>
-          </div>
-        </div>
         <div className="row">
           <div className="col-md-6 offset-md-3">
             <sdx-pie-chart
