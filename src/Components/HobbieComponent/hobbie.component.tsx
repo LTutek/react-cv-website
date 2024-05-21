@@ -2,7 +2,7 @@ import "./hobbie.component.css";
 function HobbieComponent() {
   return (
     <>
-      <div className="title row col-md-6 offset-md-3">
+      <div className="title row col-md-6 offset-md-3 ">
         <div className="col-xl-12 col-md-6 col-lg-12 col-md-6 col-md-12 col-md-6">
           <h1 className="hobbieTitle">Hobbies</h1>
         </div>

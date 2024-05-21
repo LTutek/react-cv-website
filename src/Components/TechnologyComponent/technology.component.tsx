@@ -27,7 +27,7 @@ function TechnologyComponent() {
 
   return (
     <>
-      <div className="conatainer technology margin-top-3">
+      <div className="conatainer technology">
         <sdx-input-group
           type="radio"
           inline
@@ -36,7 +36,6 @@ function TechnologyComponent() {
             marginBottom: "20px",
             display: "flex",
             justifyContent: "center",
-            marginTop: "20px",
           }}
         >
           <sdx-input-item

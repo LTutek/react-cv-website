@@ -10,10 +10,10 @@ function App() {
     <>
       <HeaderComponent />
       <IntroductionComponent />
-      <div className="project-container margin-3">
+      <div className="project container-fluid margin-top-4">
         <ProjectComponent />
       </div>
-      <div className="hobbie-container margin-3">
+      <div className="hobbie container-fluid margin-top-4">
         <HobbieComponent />
       </div>
       <SkillComponent />
