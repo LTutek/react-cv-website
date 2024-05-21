@@ -1,5 +1,4 @@
 import "./introduction.component.css";
-import astronaut_background from "../../Images/astronaut_background.jpg";
 import selfie from "../../Images/selfie.jpeg";
 import React, { useState, useEffect } from "react";
 
@@ -36,7 +35,7 @@ function IntroductionComponent() {
               label="About me :)"
               label-aria-level="3"
               image-src={selfie}
-              image-alt="austronaut image"
+              image-alt="selfie"
               href-label="Link"
               href-aria-label="Open new website."
             >
