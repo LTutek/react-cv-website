@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunksdx_react_example=self.webpackChunksdx_react_example||[]).push([[175],{2175:function(e,n,t){t.r(n),t.d(n,{sdx_dummy:function(){return c}});var u=t(5671),r=t(3144),s=t(9187),c=function(){function e(n){(0,u.Z)(this,e),(0,s.r)(this,n)}return(0,r.Z)(e,[{key:"render",value:function(){return(0,s.h)("slot",null)}}]),e}()}}]);
+//# sourceMappingURL=175.3f1fa9cb.chunk.js.map
