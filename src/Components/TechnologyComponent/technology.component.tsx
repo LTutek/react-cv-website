@@ -28,32 +28,37 @@ function TechnologyComponent() {
   return (
     <>
       <div className="conatainer technology">
-        <sdx-input-group
-          type="radio"
-          inline
-          onInput={handleCategoryChange}
-          style={{
-            marginBottom: "20px",
-            display: "flex",
-            justifyContent: "center",
-          }}
-        >
-          <sdx-input-item
-            value="frontend"
-            checked={selectedCategory === "frontend"}
+        <div className="row flex-items-xs-center">
+          <sdx-input-group
+            type="radio"
+            inline
+            onInput={handleCategoryChange}
+            style={{
+              marginBottom: "20px",
+              display: "flex",
+              justifyContent: "center",
+            }}
           >
-            Frontend
-          </sdx-input-item>
-          <sdx-input-item
-            value="backend"
-            checked={selectedCategory === "backend"}
-          >
-            Backend
-          </sdx-input-item>
-          <sdx-input-item value="tools" checked={selectedCategory === "tools"}>
-            Tools
-          </sdx-input-item>
-        </sdx-input-group>
+            <sdx-input-item
+              value="frontend"
+              checked={selectedCategory === "frontend"}
+            >
+              Frontend
+            </sdx-input-item>
+            <sdx-input-item
+              value="backend"
+              checked={selectedCategory === "backend"}
+            >
+              Backend
+            </sdx-input-item>
+            <sdx-input-item
+              value="tools"
+              checked={selectedCategory === "tools"}
+            >
+              Tools
+            </sdx-input-item>
+          </sdx-input-group>
+        </div>
         <div className="row flex-items-xs-center flex-items-xs-center">
           {filteredTechnologies.map((technology, index) => (
             <div className="col-xs-12 col-md-3 margin-2">
