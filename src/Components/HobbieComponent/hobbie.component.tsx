@@ -22,7 +22,7 @@ function HobbieComponent() {
           </div>
           <div className="row travel">
             <sdx-tabs-item label="Travel" icon-name="icon-suitcase">
-              <div className="col-xs-12 col-md-4 description margin-bottom-3">
+              <div className="col-xs-12 col-md-6 description margin-bottom-3">
                 <sdx-card label="Travel" label-aria-level="2">
                   Reisen ist meine Leidenschaft, und ich strebe danach, so viele
                   Orte wie möglich zu besuchen und zu erkunden. Jedes Reiseziel
@@ -37,7 +37,7 @@ function HobbieComponent() {
                   Leben lang begleiten.
                 </sdx-card>
               </div>
-              <div className="col-xs-12 col-md-4">
+              <div className="col-xs-12 col-md-6">
                 <sdx-content-slider
                   lg={1}
                   xl={1}
@@ -140,9 +140,9 @@ function HobbieComponent() {
             </sdx-tabs-item>
           </div>
 
-          <div className="friends row">
+          <div className="friends row flex-items-md-center">
             <sdx-tabs-item label="Friends" icon-name="icon-crowd">
-              <div className="col-xl-12 col-md-6 description offset-md-3">
+              <div className="col-xs-12 col-md-6 description col-md-6 offset-md-3">
                 <sdx-card label="Friends" label-aria-level="2">
                   An den Wochenenden treffe ich mich sehr gerne mit Freunden, um
                   gemeinsam Zeit zu verbringen und schöne Momente zu erleben.
