@@ -13,9 +13,7 @@ function App() {
       <div className="project container-fluid margin-top-4">
         <ProjectComponent />
       </div>
-      <div className="hobbie container-fluid margin-top-4">
-        <HobbieComponent />
-      </div>
+      <HobbieComponent />
       <SkillComponent />
     </>
   );
