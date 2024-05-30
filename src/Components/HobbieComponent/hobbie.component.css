@@ -55,6 +55,34 @@
   border-radius: 15px;
 }
 
+.valorant {
+  background-image: url("../../Images/Hobbies/Valorant.webp");
+  background-position: center;
+  background-size: cover;
+  border-radius: 15px;
+}
+
+.helldivers {
+  background-image: url("../../Images/Hobbies/Helldivers2.jpeg");
+  background-position: center;
+  background-size: cover;
+  border-radius: 15px;
+}
+
+.ac {
+  background-image: url("../../Images/Hobbies/acOrigins.jpeg");
+  background-position: center;
+  background-size: cover;
+  border-radius: 15px;
+}
+
+.hoi4 {
+  background-image: url("../../Images/Hobbies/Hoi4.webp");
+  background-position: center;
+  background-size: cover;
+  border-radius: 15px;
+}
+
 .icon-container {
   display: flex;
   align-items: center;
