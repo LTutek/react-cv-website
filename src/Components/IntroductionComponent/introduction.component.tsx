@@ -29,15 +29,22 @@ function IntroductionComponent() {
           </div>
         </div>
 
-        <div className="row card">
-          <div className="col-xs-12 col-md-6 flex-xs-middle col-md-6 offset-md-3">
+        <div className="row card flex-items-xs-center">
+          <div className="col-xs-12 col-md-4">
+            <img
+              className="col-xs-12 col-md-12 selfie"
+              src={selfie}
+              alt="selfie"
+            />
+          </div>
+          <div className="col-xs-12 col-md-6">
             <sdx-card
               label="About me :)"
               label-aria-level="3"
+              /* layout="split"
               image-src={selfie}
               image-alt="selfie"
-              href-label="Link"
-              href-aria-label="Open new website."
+              object-fit="cover" */
             >
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit.
