@@ -15,9 +15,7 @@
   content: none;
 }
 
-.profile {
-  max-width: 300px;
-  max-height: 300px;
-  border-radius: 25px;
-  /* margin-top: 50px; */
+.selfie {
+  border-radius: 15px;
+  object-fit: contain;
 }

@@ -4,7 +4,7 @@ import TechnologyComponent from "../TechnologyComponent/technology.component";
 function SkillComponent() {
   return (
     <>
-      <div className="contaienr skills margin-top-4">
+      <div className="container skills margin-top-4">
         <div className="title row col-md-6 offset-md-3">
           <div className="col-md-6 offset-md-3">
             <h1 className="hobbieTitle">Skills</h1>
