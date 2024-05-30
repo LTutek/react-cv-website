@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-cv-website/static/css/main.7369b83e.css",
-    "main.js": "/react-cv-website/static/js/main.65b3af11.js",
+    "main.css": "/react-cv-website/static/css/main.24f09921.css",
+    "main.js": "/react-cv-website/static/js/main.d91ed7c8.js",
     "static/js/240.0f4083ed.chunk.js": "/react-cv-website/static/js/240.0f4083ed.chunk.js",
     "static/js/66.83fa4583.chunk.js": "/react-cv-website/static/js/66.83fa4583.chunk.js",
     "static/js/327.9ef42596.chunk.js": "/react-cv-website/static/js/327.9ef42596.chunk.js",
@@ -40,15 +40,18 @@
     "static/js/895.5ef08dea.chunk.js": "/react-cv-website/static/js/895.5ef08dea.chunk.js",
     "static/js/787.a457411d.chunk.js": "/react-cv-website/static/js/787.a457411d.chunk.js",
     "static/js/778.70b7f610.chunk.js": "/react-cv-website/static/js/778.70b7f610.chunk.js",
+    "static/media/Helldivers2.jpeg": "/react-cv-website/static/media/Helldivers2.693f045face17d1a3f85.jpeg",
     "static/media/MunichHouse.jpeg": "/react-cv-website/static/media/MunichHouse.424afa93be2175ab6902.jpeg",
     "static/media/sdx-icons.svg": "/react-cv-website/static/media/sdx-icons.9847b03dd98a9e9a0b3d.svg",
     "static/media/Gradient_introduction.jpg": "/react-cv-website/static/media/Gradient_introduction.948cc4051e3dd35b58ab.jpg",
     "static/media/selfie.jpeg": "/react-cv-website/static/media/selfie.6571c54ca07601ec649b.jpeg",
+    "static/media/acOrigins.jpeg": "/react-cv-website/static/media/acOrigins.ebe3e2f7a0106bc8b47e.jpeg",
     "static/media/StPaulsLondon.jpeg": "/react-cv-website/static/media/StPaulsLondon.1bb9bcebab83529c75fa.jpeg",
     "static/media/CityOfLondon.jpeg": "/react-cv-website/static/media/CityOfLondon.5865efc21219057663c4.jpeg",
     "static/media/Rovinj.jpeg": "/react-cv-website/static/media/Rovinj.5600cd251588be8aa548.jpeg",
     "static/media/ZadarSunset.jpeg": "/react-cv-website/static/media/ZadarSunset.1767f8129871134a9530.jpeg",
     "static/media/SvMarkoZagreb.jpeg": "/react-cv-website/static/media/SvMarkoZagreb.42f829abc4e8fe0725d2.jpeg",
+    "static/media/Hoi4.webp": "/react-cv-website/static/media/Hoi4.ba34f98b8eb8cef60116.webp",
     "static/media/TheSansB_200_.ttf": "/react-cv-website/static/media/TheSansB_200_.04580e478adc73a642ce.ttf",
     "static/media/TheSansB_300_.ttf": "/react-cv-website/static/media/TheSansB_300_.bdac62472c11eba44145.ttf",
     "static/media/TheSansB_500i.ttf": "/react-cv-website/static/media/TheSansB_500i.63aff7ba30f4cb7a09fc.ttf",
@@ -66,6 +69,7 @@
     "static/media/TheSerifB_300_.ttf": "/react-cv-website/static/media/TheSerifB_300_.62a70b7d5c1b801540e8.ttf",
     "static/media/TheSansB_800_.ttf": "/react-cv-website/static/media/TheSansB_800_.6570105529487c9b1b79.ttf",
     "static/media/TheSansB_800i.ttf": "/react-cv-website/static/media/TheSansB_800i.d1cc29330d40470436fd.ttf",
+    "static/media/Valorant.webp": "/react-cv-website/static/media/Valorant.ba7efef6a081a995d0da.webp",
     "static/media/TheSansB_200i.ttf": "/react-cv-website/static/media/TheSansB_200i.3499516e26af395b3ae7.ttf",
     "static/media/TheSerifB_400i.svg": "/react-cv-website/static/media/TheSerifB_400i.d7e23772352a544f03e0.svg",
     "static/media/TheSerifB_500i.ttf": "/react-cv-website/static/media/TheSerifB_500i.54d8e0fafcb2b5c5d108.ttf",
@@ -227,8 +231,8 @@
     "static/media/jira.svg": "/react-cv-website/static/media/jira.1b79d9d02350c124716652a3e72b8376.svg",
     "static/media/angular.svg": "/react-cv-website/static/media/angular.3f781d9105b3bef395676155dd37e208.svg",
     "index.html": "/react-cv-website/index.html",
-    "main.7369b83e.css.map": "/react-cv-website/static/css/main.7369b83e.css.map",
-    "main.65b3af11.js.map": "/react-cv-website/static/js/main.65b3af11.js.map",
+    "main.24f09921.css.map": "/react-cv-website/static/css/main.24f09921.css.map",
+    "main.d91ed7c8.js.map": "/react-cv-website/static/js/main.d91ed7c8.js.map",
     "240.0f4083ed.chunk.js.map": "/react-cv-website/static/js/240.0f4083ed.chunk.js.map",
     "66.83fa4583.chunk.js.map": "/react-cv-website/static/js/66.83fa4583.chunk.js.map",
     "327.9ef42596.chunk.js.map": "/react-cv-website/static/js/327.9ef42596.chunk.js.map",
@@ -269,7 +273,7 @@
     "778.70b7f610.chunk.js.map": "/react-cv-website/static/js/778.70b7f610.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7369b83e.css",
-    "static/js/main.65b3af11.js"
+    "static/css/main.24f09921.css",
+    "static/js/main.d91ed7c8.js"
   ]
 }
