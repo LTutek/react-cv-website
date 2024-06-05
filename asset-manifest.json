@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-cv-website/static/css/main.24f09921.css",
-    "main.js": "/react-cv-website/static/js/main.d91ed7c8.js",
+    "main.js": "/react-cv-website/static/js/main.6de59b95.js",
     "static/js/240.0f4083ed.chunk.js": "/react-cv-website/static/js/240.0f4083ed.chunk.js",
     "static/js/66.83fa4583.chunk.js": "/react-cv-website/static/js/66.83fa4583.chunk.js",
     "static/js/327.9ef42596.chunk.js": "/react-cv-website/static/js/327.9ef42596.chunk.js",
@@ -157,6 +157,7 @@
     "static/media/TheSansB_600i.eot": "/react-cv-website/static/media/TheSansB_600i.0cb1f63f6488760a9734.eot",
     "static/media/TheSansB_600_.eot": "/react-cv-website/static/media/TheSansB_600_.07579f1ae3599b39ca4c.eot",
     "static/media/TheSerifB_200_.woff": "/react-cv-website/static/media/TheSerifB_200_.f05f03de489773d2ecba.woff",
+    "static/media/React-icon.svg.png": "/react-cv-website/static/media/React-icon.svg.1d385d14e08b2ed7362a.png",
     "static/media/TheSansB_900i.woff": "/react-cv-website/static/media/TheSansB_900i.68afb97e6f66e9271898.woff",
     "static/media/TheSansB_400i.woff": "/react-cv-website/static/media/TheSansB_400i.d1020c5ce8552b5755c4.woff",
     "static/media/TheSerifB_800i.woff": "/react-cv-website/static/media/TheSerifB_800i.2abb5d6700f91e681ffa.woff",
@@ -232,7 +233,7 @@
     "static/media/angular.svg": "/react-cv-website/static/media/angular.3f781d9105b3bef395676155dd37e208.svg",
     "index.html": "/react-cv-website/index.html",
     "main.24f09921.css.map": "/react-cv-website/static/css/main.24f09921.css.map",
-    "main.d91ed7c8.js.map": "/react-cv-website/static/js/main.d91ed7c8.js.map",
+    "main.6de59b95.js.map": "/react-cv-website/static/js/main.6de59b95.js.map",
     "240.0f4083ed.chunk.js.map": "/react-cv-website/static/js/240.0f4083ed.chunk.js.map",
     "66.83fa4583.chunk.js.map": "/react-cv-website/static/js/66.83fa4583.chunk.js.map",
     "327.9ef42596.chunk.js.map": "/react-cv-website/static/js/327.9ef42596.chunk.js.map",
@@ -274,6 +275,6 @@
   },
   "entrypoints": [
     "static/css/main.24f09921.css",
-    "static/js/main.d91ed7c8.js"
+    "static/js/main.6de59b95.js"
   ]
 }
