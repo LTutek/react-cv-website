@@ -64,6 +64,10 @@ function ProjectComponent() {
                   <p>
                     <strong>Duration:</strong> August 15, 2022 - Februar 1, 2023
                   </p>
+                  <p>
+                    <strong>Technologies:</strong> TypeScript, JavaScript,
+                    Vue.js, HTML, CSS und MongoDB
+                  </p>
                 </div>
               </div>
 
@@ -90,8 +94,8 @@ function ProjectComponent() {
                     führen.
                   </p>
                   <p>
-                    <strong>Duration:</strong> February 2, 2023 - February 1,
-                    2024
+                    <strong>Technologies:</strong> TypeScript, Angular, SQL,
+                    MariaDB MongoDB, Jira, Docker, Python und Github
                   </p>
                 </div>
               </div>
@@ -114,7 +118,8 @@ function ProjectComponent() {
                     Entwicklung von Anwendungen mitzuwirken.
                   </p>
                   <p>
-                    <strong>Duration:</strong> February 5, 2024 - August 2, 2024
+                    <strong>Technologies:</strong> TypeScript, Nestjs, MariaDB,
+                    Github, GitLab, Rancher Desktop und React
                   </p>
                 </div>
               </div>

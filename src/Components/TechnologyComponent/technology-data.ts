@@ -13,6 +13,7 @@ import gitlab from "../../Images/technology/gitlab.svg";
 import docker from "../../Images/technology/docker.svg";
 import rancherDesktop from "../../Images/technology/rancherDesktop.jpeg";
 import jira from "../../Images/technology/jira.svg";
+import react from "../../Images/technology/React-icon.svg.png";
 export const technologies = [
   {
     name: "Angular",
@@ -29,6 +30,14 @@ export const technologies = [
       "Vue.js ist ein progressives Framework zur Erstellung von Benutzeroberflächen.",
     category: "frontend",
     link: "https://vuejs.org",
+  },
+  {
+    name: "React",
+    logo: react,
+    description:
+      "React ist eine JavaScript-Bibliothek zur Erstellung von Benutzeroberflächen.",
+    category: "frontend",
+    link: "https://react.dev",
   },
   {
     name: "NestJS",
