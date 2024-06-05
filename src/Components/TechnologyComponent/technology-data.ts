@@ -11,7 +11,7 @@ import TypeScript from "../../Images/technology/Typescript_logo_2020.svg.png";
 import github from "../../Images/technology/github.png";
 import gitlab from "../../Images/technology/gitlab.svg";
 import docker from "../../Images/technology/docker.svg";
-import rancherDesktop from "../../Images/technology/rancherDesktop.jpeg";
+import rancherDesktop from "../../Images/technology/rancherDesktop.png";
 import jira from "../../Images/technology/jira.svg";
 import react from "../../Images/technology/React-icon.svg.png";
 export const technologies = [
