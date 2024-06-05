@@ -22,13 +22,15 @@ function IntroductionComponent() {
 
   return (
     <>
-      <div className="container-fluid no-gutters">
-        <div className="row introduction">
+      <div className="container-fluid no-gutters typeWriterContainer">
+        <div className="introduction">
           <div className="col-xs flex-xs-middle col-md-6 offset-md-3">
             <Typewriter text="Hello my name is Luka Tutek" delay={100} />
           </div>
         </div>
+      </div>
 
+      <div className="container-fluid">
         <div className="row card flex-items-xs-center">
           <div className="col-xs-12 col-md-4">
             <img
