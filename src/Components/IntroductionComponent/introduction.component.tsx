@@ -38,20 +38,15 @@ function IntroductionComponent() {
             />
           </div>
           <div className="col-xs-12 col-md-6">
-            <sdx-card
-              label="About me :)"
-              label-aria-level="3"
-              /* layout="split"
-              image-src={selfie}
-              image-alt="selfie"
-              object-fit="cover" */
-            >
+            <sdx-card label="About me :)" label-aria-level="3">
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Asperiores, debitis exercitationem, architecto voluptatibus
-                similique delectus et sapiente iusto iste, consequatur
-                temporibus pariatur voluptates minima ut nam provident obcaecati
-                placeat cumque!
+                Hallo! Ich bin 18 Jahre alt und befinde mich im zweiten Lehrjahr
+                meiner Ausbildung zum Applikationsentwickler. Meine Leidenschaft
+                für die Technologie und mein stetiger Drang, Neues zu lernen,
+                treiben mich an. Neugierde ist eine meiner grössten Stärken –
+                sie motiviert mich, ständig neue Wege zu erkunden und innovative
+                Lösungen zu finden. Ich freue mich darauf, meine Fähigkeiten
+                weiterzuentwickeln und spannende Projekte zu realisieren.
               </p>
             </sdx-card>
           </div>
