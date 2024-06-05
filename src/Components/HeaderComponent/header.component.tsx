@@ -2,7 +2,7 @@ import "./header.component.css";
 
 function HeaderComponent() {
   const onButtonClick = () => {
-    const pdfUrl = "/assets/CV-Luka Swisscom.pdf";
+    const pdfUrl = "/react-cv-website/assets/CV-Luka%20Swisscom.pdf";
     const link = document.createElement("a");
     link.href = pdfUrl;
     link.download = "CV-LukaTutek";
@@ -63,7 +63,7 @@ function HeaderComponent() {
         </div>
         <div slot="download" className="container">
           <div className="row">
-            <div className="col-10">
+            <div className="col-10 margin-bottom-1">
               <sdx-button
                 theme="transparent"
                 label="Download PDF"
@@ -81,6 +81,7 @@ function HeaderComponent() {
                 icon-name="icon-map-pointer"
                 size={2}
                 sr-hint="School location"
+                style={{ marginRight: "5px" }}
               ></sdx-icon>
               <span>BBBaden</span>
             </div>
@@ -89,6 +90,7 @@ function HeaderComponent() {
                 icon-name="icon-clock"
                 size={2}
                 sr-hint="Day"
+                style={{ marginRight: "5px" }}
               ></sdx-icon>
               <span>Mittwoch: Berufsschule</span>
             </div>
@@ -97,6 +99,7 @@ function HeaderComponent() {
                 icon-name="icon-clock"
                 size={2}
                 sr-hint="Day"
+                style={{ marginRight: "5px" }}
               ></sdx-icon>
               <span>Freitag: ABU</span>
             </div>
