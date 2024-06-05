@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-cv-website/static/css/main.0fc73e3a.css",
-    "main.js": "/react-cv-website/static/js/main.28b81061.js",
+    "main.js": "/react-cv-website/static/js/main.d7cb4551.js",
     "static/js/240.0f4083ed.chunk.js": "/react-cv-website/static/js/240.0f4083ed.chunk.js",
     "static/js/66.83fa4583.chunk.js": "/react-cv-website/static/js/66.83fa4583.chunk.js",
     "static/js/327.9ef42596.chunk.js": "/react-cv-website/static/js/327.9ef42596.chunk.js",
@@ -115,6 +115,7 @@
     "static/media/TheSansB_400_.svg": "/react-cv-website/static/media/TheSansB_400_.8e0b91f1a01775f5a361.svg",
     "static/media/TheSansB_700_.svg": "/react-cv-website/static/media/TheSansB_700_.139083fece9c15a73eff.svg",
     "static/media/TheSansB_900_.svg": "/react-cv-website/static/media/TheSansB_900_.b64340c6959ee701b06a.svg",
+    "static/media/Typescript_logo_2020.svg.png": "/react-cv-website/static/media/Typescript_logo_2020.svg.a7b062c39bbda63dca40.png",
     "static/media/lifeform-spritesheet@2x.png": "/react-cv-website/static/media/lifeform-spritesheet@2x.37067bada3627efe9fd3.png",
     "static/media/sdx-icons.woff": "/react-cv-website/static/media/sdx-icons.27f04d322ae625edca99.woff",
     "static/media/TheSansB_300_.woff": "/react-cv-website/static/media/TheSansB_300_.fece017acf157974e7c8.woff",
@@ -160,6 +161,7 @@
     "static/media/React-icon.svg.png": "/react-cv-website/static/media/React-icon.svg.1d385d14e08b2ed7362a.png",
     "static/media/TheSansB_900i.woff": "/react-cv-website/static/media/TheSansB_900i.68afb97e6f66e9271898.woff",
     "static/media/TheSansB_400i.woff": "/react-cv-website/static/media/TheSansB_400i.d1020c5ce8552b5755c4.woff",
+    "static/media/rancherDesktop.png": "/react-cv-website/static/media/rancherDesktop.3a54c0df73c0628efb15.png",
     "static/media/TheSerifB_800i.woff": "/react-cv-website/static/media/TheSerifB_800i.2abb5d6700f91e681ffa.woff",
     "static/media/TheSerifB_300i.eot": "/react-cv-website/static/media/TheSerifB_300i.93b7b07afe4f62dd6d09.eot",
     "static/media/TheSerifB_500i.eot": "/react-cv-website/static/media/TheSerifB_500i.8b30c267e7a0e232f350.eot",
@@ -183,7 +185,6 @@
     "static/media/TheSansB_900i.eot": "/react-cv-website/static/media/TheSansB_900i.c846663ac60aca8e2835.eot",
     "static/media/TheSansB_400i.eot": "/react-cv-website/static/media/TheSansB_400i.292baf1972a8d6f03537.eot",
     "static/media/NestJS.svg.png": "/react-cv-website/static/media/NestJS.svg.94022fdcc7fcc69e3cb7.png",
-    "static/media/Typescript_logo_2020.svg.png": "/react-cv-website/static/media/Typescript_logo_2020.svg.1e3902edbe4c3f2970d8.png",
     "static/media/TheSansB_300_.woff2": "/react-cv-website/static/media/TheSansB_300_.463e712a2e699229c410.woff2",
     "static/media/TheSansB_600i.woff2": "/react-cv-website/static/media/TheSansB_600i.84ac41414d1e02d5ffdb.woff2",
     "static/media/TheSansB_600_.woff2": "/react-cv-website/static/media/TheSansB_600_.eb75674c6faa21848d80.woff2",
@@ -209,6 +210,7 @@
     "static/media/TheSerifB_400i.woff2": "/react-cv-website/static/media/TheSerifB_400i.4edc4dd54a514a268ea2.woff2",
     "static/media/TheSerifB_200i.woff2": "/react-cv-website/static/media/TheSerifB_200i.91dce60b76d53d093fce.woff2",
     "static/media/TheSansB_800i.woff2": "/react-cv-website/static/media/TheSansB_800i.df8c721629f922dd7a74.woff2",
+    "static/media/HTML5.png": "/react-cv-website/static/media/HTML5.9ec6333897e03292364e.png",
     "static/media/TheSerifB_200_.woff2": "/react-cv-website/static/media/TheSerifB_200_.41d9839e1115eec924cf.woff2",
     "static/media/TheSansB_800_.woff2": "/react-cv-website/static/media/TheSansB_800_.075c2551249f89182ee7.woff2",
     "static/media/TheSerifB_800i.woff2": "/react-cv-website/static/media/TheSerifB_800i.25a2ffffc28b3fa9e6af.woff2",
@@ -217,8 +219,6 @@
     "static/media/lifeform-spritesheet.png": "/react-cv-website/static/media/lifeform-spritesheet.711505359202c42526b5.png",
     "static/media/NexCCLogo.png": "/react-cv-website/static/media/NexCCLogo.2dbc5c14b5bdcf341d7d.png",
     "static/media/CSS.png": "/react-cv-website/static/media/CSS.443bc827ad57da012b4b.png",
-    "static/media/HTML5.png": "/react-cv-website/static/media/HTML5.55ab355c45f7ae4a842f.png",
-    "static/media/rancherDesktop.jpeg": "/react-cv-website/static/media/rancherDesktop.d862280248f18e833c4e.jpeg",
     "static/media/mongoDB.png": "/react-cv-website/static/media/mongoDB.77e836ea1ba69862dc89.png",
     "static/media/JavaScript.png": "/react-cv-website/static/media/JavaScript.53a72c2f1b8894adc207.png",
     "static/media/python.png": "/react-cv-website/static/media/python.632369df831d16241b59.png",
@@ -233,7 +233,7 @@
     "static/media/angular.svg": "/react-cv-website/static/media/angular.3f781d9105b3bef395676155dd37e208.svg",
     "index.html": "/react-cv-website/index.html",
     "main.0fc73e3a.css.map": "/react-cv-website/static/css/main.0fc73e3a.css.map",
-    "main.28b81061.js.map": "/react-cv-website/static/js/main.28b81061.js.map",
+    "main.d7cb4551.js.map": "/react-cv-website/static/js/main.d7cb4551.js.map",
     "240.0f4083ed.chunk.js.map": "/react-cv-website/static/js/240.0f4083ed.chunk.js.map",
     "66.83fa4583.chunk.js.map": "/react-cv-website/static/js/66.83fa4583.chunk.js.map",
     "327.9ef42596.chunk.js.map": "/react-cv-website/static/js/327.9ef42596.chunk.js.map",
@@ -275,6 +275,6 @@
   },
   "entrypoints": [
     "static/css/main.0fc73e3a.css",
-    "static/js/main.28b81061.js"
+    "static/js/main.d7cb4551.js"
   ]
 }
