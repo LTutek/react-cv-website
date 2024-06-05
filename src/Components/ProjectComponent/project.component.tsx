@@ -8,7 +8,7 @@ import AppsteamLogo from "../../Images/AppsteamLogo.png";
 function ProjectComponent() {
   return (
     <>
-      <div className="carousel container-fluid no-gutters">
+      <div className="carousel container-fluid">
         <div className="row">
           <div className="col-md-6 offset-md-3">
             <h1 className="projectTitle">Projects</h1>
