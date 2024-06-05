@@ -3,6 +3,7 @@
   background-image: url("../../Images/Gradient_introduction.jpg");
   background-size: cover;
   text-align: center;
+  display: flex;
 }
 
 .typewriter {
@@ -18,4 +19,8 @@
 .selfie {
   border-radius: 15px;
   object-fit: contain;
+}
+
+.typeWriterContainer {
+  padding: 0;
 }
