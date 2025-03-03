@@ -1,5 +1,6 @@
 import "./introduction.component.css";
 import selfie from "../../Images/selfie.jpeg";
+import profile_pic from "../../Images/profile_pic.png";
 import React, { useState, useEffect } from "react";
 
 function IntroductionComponent() {
@@ -35,7 +36,7 @@ function IntroductionComponent() {
           <div className="col-xs-12 col-md-4">
             <img
               className="col-xs-12 col-md-12 selfie"
-              src={selfie}
+              src={profile_pic}
               alt="selfie"
             />
           </div>
