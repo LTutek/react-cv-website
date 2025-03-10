@@ -14,6 +14,11 @@ import docker from "../../Images/technology/docker.svg";
 import rancherDesktop from "../../Images/technology/rancherDesktop.png";
 import jira from "../../Images/technology/jira.svg";
 import react from "../../Images/technology/React-icon.svg.png";
+import Csharp from "../../Images/technology/Csharp.png";
+import Blazor from "../../Images/technology/Blazor.png";
+import Nextjs from "../../Images/technology/Nextjs.png";
+import AWS from "../../Images/technology/AWS.png";
+import SpringBoot from "../../Images/technology/SpringBoot.png";
 export const technologies = [
   {
     name: "Angular",
@@ -150,5 +155,46 @@ export const technologies = [
       "Jira ist ein von Atlassian entwickeltes, proprietäres Produkt zur Fehlerverfolgung, das Bugtracking und agiles Projektmanagement ermöglicht.",
     category: "tools",
     link: "https://jira.swisscom.com/secure/Dashboard.jspa",
+  },
+  //New stuff
+  {
+    name: "C# / .NET",
+    logo: Csharp, // Beispiel: Pfad zu deinem Logo oder Icon-Komponente
+    description:
+      "C# ist eine objektorientierte Programmiersprache von Microsoft. In Kombination mit dem .NET Framework oder .NET Core ermöglicht sie die Entwicklung moderner Anwendungen für Web, Desktop, Cloud und mehr.",
+    category: "backend",
+    link: "https://learn.microsoft.com/de-de/dotnet/csharp/",
+  },
+  {
+    name: "Blazor",
+    logo: Blazor,
+    description:
+      "Blazor ist ein Webframework von Microsoft, mit dem interaktive Web-UIs mithilfe von C# statt JavaScript entwickelt werden können – sowohl auf dem Server als auch clientseitig mit WebAssembly.",
+    category: "frontend",
+    link: "https://learn.microsoft.com/de-de/aspnet/core/blazor/",
+  },
+  {
+    name: "AWS",
+    logo: AWS,
+    description:
+      "Amazon Web Services (AWS) ist eine umfassende Cloud-Plattform, die über 200 Dienste wie Rechenleistung, Speicher, Datenbanken, Machine Learning und mehr bereitstellt.",
+    category: "tools",
+    link: "https://aws.amazon.com/de/",
+  },
+  {
+    name: "NextJS",
+    logo: Nextjs,
+    description:
+      "Next.js ist ein React-Framework, das serverseitiges Rendering, statische Seitengenerierung und eine hervorragende Entwicklererfahrung für moderne Webanwendungen bietet.",
+    category: "frontend",
+    link: "https://nextjs.org/",
+  },
+  {
+    name: "Java Springboot",
+    logo: SpringBoot,
+    description:
+      "Spring Boot ist ein Java-Framework, das die Entwicklung von produktionsreifen, eigenständigen Anwendungen erleichtert – mit Fokus auf Konvention statt Konfiguration.",
+    category: "backend",
+    link: "https://spring.io/projects/spring-boot",
   },
 ];
