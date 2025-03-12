@@ -46,6 +46,20 @@
   border-radius: 15px;
 }
 
+.Shard {
+  background-image: url("../../Images/Hobbies/Shard.jpeg");
+  background-position: center;
+  background-size: cover;
+  border-radius: 15px;
+}
+
+.Adriatic {
+  background-image: url("../../Images/Hobbies/adriatic.jpeg");
+  background-position: center;
+  background-size: cover;
+  border-radius: 15px;
+}
+
 /*Gaming*/
 
 .Mc1 {
