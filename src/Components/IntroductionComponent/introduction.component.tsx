@@ -42,7 +42,7 @@ function IntroductionComponent() {
           <div className="col-xs-12 col-md-6">
             <sdx-card label="About me :)" label-aria-level="3">
               <p>
-                Hallo! Ich bin 18 Jahre alt und befinde mich im zweiten Lehrjahr
+                Hallo! Ich bin 18 Jahre alt und befinde mich im dritten Lehrjahr
                 meiner Ausbildung zum Applikationsentwickler. Meine Leidenschaft
                 für die Technologie und mein stetiger Drang, Neues zu lernen,
                 treiben mich an. Neugierde ist eine meiner grössten Stärken –

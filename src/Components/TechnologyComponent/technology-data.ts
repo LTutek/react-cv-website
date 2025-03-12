@@ -171,7 +171,7 @@ export const technologies = [
     description:
       "Blazor ist ein Webframework von Microsoft, mit dem interaktive Web-UIs mithilfe von C# statt JavaScript entwickelt werden können – sowohl auf dem Server als auch clientseitig mit WebAssembly.",
     category: "frontend",
-    link: "https://learn.microsoft.com/de-de/aspnet/core/blazor/",
+    link: "https://dotnet.microsoft.com/en-us/apps/aspnet/web-apps/blazor",
   },
   {
     name: "AWS",

@@ -2,10 +2,10 @@ import "./header.component.css";
 
 function HeaderComponent() {
   const onButtonClick = () => {
-    const pdfUrl = "/react-cv-website/assets/CV-Luka%20Swisscom.pdf";
+    const pdfUrl = "/react-cv-website/assets/CV%20Luka%20Swisscom.pdf";
     const link = document.createElement("a");
     link.href = pdfUrl;
-    link.download = "CV-LukaTutek";
+    link.download = "CV LukaTutek";
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
@@ -92,7 +92,7 @@ function HeaderComponent() {
                 sr-hint="Day"
                 style={{ marginRight: "5px" }}
               ></sdx-icon>
-              <span>Mittwoch: Berufsschule</span>
+              <span>Dienstag: Berufsschule</span>
             </div>
             <div className="col-10 center margin-bottom-1">
               <sdx-icon
