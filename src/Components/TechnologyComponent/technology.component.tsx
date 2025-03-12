@@ -61,7 +61,10 @@ function TechnologyComponent() {
         </div>
         <div className="row flex-items-xs-center flex-items-xs-center">
           {filteredTechnologies.map((technology, index) => (
-            <div className="col-xs-12 col-md-3 margin-2">
+            <div
+              className="col-xs-12 col-md-3 margin-2"
+              key={`${technology.name}-${index}`} // Combine name with index for uniqueness
+            >
               <sdx-card
                 object-fit="contain"
                 label={technology.name}
@@ -69,7 +72,7 @@ function TechnologyComponent() {
                 image-src={technology.logo}
                 image-alt={technology.name}
                 href={technology.link}
-                href-label={technology.name} // The Link names
+                href-label={technology.name}
                 href-aria-label="Open new website."
               >
                 <p>{technology.description}</p>

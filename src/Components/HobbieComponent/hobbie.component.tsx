@@ -48,9 +48,9 @@ function HobbieComponent() {
                   >
                     <div
                       className="image--frame-light Munich"
-                      style={{ height: "200px" }}
+                      style={{ height: "300px" }}
                       role="group"
-                      aria-label="Slide 1 of 6"
+                      aria-label="Slide 1 of 8"
                     >
                       <div className="icon-container">
                         <sdx-icon
@@ -63,9 +63,9 @@ function HobbieComponent() {
                     </div>
                     <div
                       className="image--frame-light London"
-                      style={{ height: "200px", width: "200px" }}
+                      style={{ height: "300px", width: "300px" }}
                       role="group"
-                      aria-label="Slide 2 of 6"
+                      aria-label="Slide 2 of 8"
                     >
                       <div className="icon-container">
                         <sdx-icon
@@ -76,12 +76,27 @@ function HobbieComponent() {
                         St.Pauls Cathedral, London
                       </div>
                     </div>
+                    <div
+                      className="image--frame-light Shard"
+                      style={{ height: "300px", width: "300px" }}
+                      role="group"
+                      aria-label="Slide 3 of 8"
+                    >
+                      <div className="icon-container">
+                        <sdx-icon
+                          icon-name="icon-map-pointer"
+                          size={2}
+                          sr-hint="Displays the location"
+                        ></sdx-icon>
+                        The Shard, London
+                      </div>
+                    </div>
 
                     <div
                       className="image--frame-light CityLondon"
-                      style={{ height: "200px" }}
+                      style={{ height: "300px" }}
                       role="group"
-                      aria-label="Slide 3 of 6"
+                      aria-label="Slide 4 of 8"
                     >
                       <div className="icon-container">
                         <sdx-icon
@@ -94,9 +109,9 @@ function HobbieComponent() {
                     </div>
                     <div
                       className="image--frame-light SvMarko"
-                      style={{ height: "200px" }}
+                      style={{ height: "300px" }}
                       role="group"
-                      aria-label="Slide 4 of 6"
+                      aria-label="Slide 5 of 8"
                     >
                       <div className="icon-container">
                         <sdx-icon
@@ -109,9 +124,9 @@ function HobbieComponent() {
                     </div>
                     <div
                       className="image--frame-light Zadar"
-                      style={{ height: "200px" }}
+                      style={{ height: "300px" }}
                       role="group"
-                      aria-label="Slide 5 of 6"
+                      aria-label="Slide 6 of 8"
                     >
                       <div className="icon-container">
                         <sdx-icon
@@ -124,9 +139,9 @@ function HobbieComponent() {
                     </div>
                     <div
                       className="image--frame-light Rovinj"
-                      style={{ height: "200px" }}
+                      style={{ height: "300px" }}
                       role="group"
-                      aria-label="Slide 6 of 6"
+                      aria-label="Slide 7 of 8"
                     >
                       <div className="icon-container">
                         <sdx-icon
@@ -135,6 +150,21 @@ function HobbieComponent() {
                           sr-hint="Displays the location"
                         ></sdx-icon>
                         Rovinj
+                      </div>
+                    </div>
+                    <div
+                      className="image--frame-light Adriatic"
+                      style={{ height: "300px" }}
+                      role="group"
+                      aria-label="Slide 8 of 8"
+                    >
+                      <div className="icon-container">
+                        <sdx-icon
+                          icon-name="icon-map-pointer"
+                          size={2}
+                          sr-hint="Displays the location"
+                        ></sdx-icon>
+                        Adriatic
                       </div>
                     </div>
                   </sdx-content-slider>
@@ -163,14 +193,15 @@ function HobbieComponent() {
               <sdx-tabs-item label="Gaming" icon-name="icon-gaming">
                 <div className="description margin-bottom-3">
                   <sdx-card label="Gaming" label-aria-level="2">
-                    In meiner Freizeit zu Hause spiele ich gerne Videospiele mit
-                    Freunden, um abzuschalten und Spass zu haben. Es ist eine
-                    Gelegenheit, gemeinsam in virtuelle Welten einzutauchen,
-                    Herausforderungen zu meistern und Erfolge zu feiern. Es ist
-                    immer wieder aufregend, neue Spiele auszuprobieren oder
-                    bekannte Titel gemeinsam zu erkunden. Durch das gemeinsame
-                    Spielen entstehen oft lustige und unvergessliche Erlebnisse,
-                    die unsere Freundschaft weiter vertiefen.
+                    In meiner Freizeit am Wochenende spiele ich gerne
+                    Videospiele mit Freunden, um abzuschalten und Spass zu
+                    haben. Es ist eine Gelegenheit, gemeinsam in virtuelle
+                    Welten einzutauchen, Herausforderungen zu meistern und
+                    Erfolge zu feiern. Es ist immer wieder aufregend, neue
+                    Spiele auszuprobieren oder bekannte Titel gemeinsam zu
+                    erkunden. Durch das gemeinsame Spielen entstehen oft lustige
+                    und unvergessliche Erlebnisse, die unsere Freundschaft
+                    weiter vertiefen.
                   </sdx-card>
                 </div>
                 <div className="">
@@ -183,7 +214,7 @@ function HobbieComponent() {
                   >
                     <div
                       className="image--frame-light Mc1"
-                      style={{ height: "200px" }}
+                      style={{ height: "300px" }}
                       role="group"
                       aria-label="Slide 1 of 6"
                     >
@@ -198,7 +229,7 @@ function HobbieComponent() {
                     </div>
                     <div
                       className="image--frame-light valorant"
-                      style={{ height: "200px", width: "200px" }}
+                      style={{ height: "300px", width: "300px" }}
                       role="group"
                       aria-label="Slide 2 of 6"
                     >
@@ -214,7 +245,7 @@ function HobbieComponent() {
 
                     <div
                       className="image--frame-light helldivers"
-                      style={{ height: "200px" }}
+                      style={{ height: "300px" }}
                       role="group"
                       aria-label="Slide 3 of 6"
                     >
@@ -229,7 +260,7 @@ function HobbieComponent() {
                     </div>
                     <div
                       className="image--frame-light ac"
-                      style={{ height: "200px" }}
+                      style={{ height: "300px" }}
                       role="group"
                       aria-label="Slide 4 of 6"
                     >
@@ -244,7 +275,7 @@ function HobbieComponent() {
                     </div>
                     <div
                       className="image--frame-light hoi4"
-                      style={{ height: "200px" }}
+                      style={{ height: "300px" }}
                       role="group"
                       aria-label="Slide 5 of 6"
                     >
@@ -265,9 +296,9 @@ function HobbieComponent() {
               <sdx-tabs-item label="Reading" icon-name="icon-book">
                 <div className="description">
                   <sdx-card label="Reading" label-aria-level="2">
-                    Ich lese nicht so oft, wie ich es gerne hätte. Jedoch ist
-                    diese Aktivität für mich eine Möglichkeit, von digitalen
-                    Medien wegzukommen und in eine andere Welt einzutauchen.
+                    Ich lese täglich Bücher, um vom digitalen Alltag
+                    abzuschalten. Meistens mache ich das abends vor dem
+                    Schlafengehen, da es mich beruhigt. :D
                   </sdx-card>
                 </div>
               </sdx-tabs-item>
