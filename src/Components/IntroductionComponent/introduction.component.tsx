@@ -1,5 +1,4 @@
 import "./introduction.component.css";
-import selfie from "../../Images/selfie.jpeg";
 import profile_pic from "../../Images/profile_pic.png";
 import React, { useState, useEffect } from "react";
 
